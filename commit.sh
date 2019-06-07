@@ -5,6 +5,7 @@
 MSG=$1
 main()
 {
+    git add *
     git commit --message "$MSG" --author="wuweilin<1315329460@qq.com>"
 }
 
